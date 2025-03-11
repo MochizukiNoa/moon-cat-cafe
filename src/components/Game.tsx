@@ -215,7 +215,7 @@ export const Game: React.FC = () => {
                 className="choice-button share-button"
                 onClick={() => {
                   const text = '『月夜の猫と秘密のカフェ』をプレイしました。#月夜の猫と秘密のカフェ';
-                  const gameUrl = 'https://tsuki-neko-cafe.vercel.app/';
+                  const gameUrl = 'https://moon-cat-cafe.vercel.app/';
                   const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text + '\n' + gameUrl);
                   window.open(url, '_blank');
                 }}
