@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useCallback, useRef } from 'react';
-import { Story, Scene } from '../types/story';
+import { Scene } from '../types/story';
 import { story } from '../data/story';
 
 interface SaveData {
